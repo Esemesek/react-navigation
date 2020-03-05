@@ -33,10 +33,13 @@
   },
   "devDependencies": {
     "@expo/webpack-config": "^0.10.12",
+    "@react-navigation/test-utils": "5.0.0",
     "@types/react": "^16.9.19",
     "@types/react-native": "^0.60.30",
     "babel-preset-expo": "^8.0.0",
     "expo-cli": "^3.11.9",
+    "react-native-testing-library": "^1.12.0",
+    "react-test-renderer": "^16.13.0",
     "typescript": "^3.7.5"
   }
 }

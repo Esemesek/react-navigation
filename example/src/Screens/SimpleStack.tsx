@@ -110,6 +110,8 @@ type Props = Partial<React.ComponentProps<typeof SimpleStack.Navigator>> & {
   navigation: StackNavigationProp<ParamListBase>;
 };
 
+export { ArticleScreen, NewsFeedScreen, AlbumsScreen };
+
 export default function SimpleStackScreen({ navigation, ...rest }: Props) {
   navigation.setOptions({
     headerShown: false,

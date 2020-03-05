@@ -1,0 +1,40 @@
+{
+  "name": "@react-navigation/test-utils",
+  "description": "",
+  "version": "5.0.0",
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "react-navigation",
+    "ios",
+    "android",
+    "stack"
+  ],
+  "license": "MIT",
+  "repository": "",
+  "bugs": "",
+  "homepage": "",
+  "main": "lib/commonjs/index.js",
+  "react-native": "src/index.tsx",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "bob build",
+    "clean": "del lib"
+  },
+  "devDependencies": {
+    "@react-navigation/native": "^5.0.9",
+    "@types/react": "^16.9.19",
+    "react": "~16.9.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "@react-navigation/native": "^5.0.5",
+    "react": "*"
+  }
+}
